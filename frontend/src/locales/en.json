@@ -1,0 +1,48 @@
+{
+  "appName": "Jan Suvidha",
+  "tagline": "File a complaint from home. Track it like a delivery. Hold officers accountable.",
+  "nav": { "home": "Home", "trackComplaint": "Track Complaint", "login": "Login", "register": "Register", "dashboard": "Dashboard", "logout": "Logout" },
+  "home": {
+    "heroTitle": "Your complaint. Every UP department. One deadline that can't be ignored.",
+    "heroSubtitle": "File complaints against Police, Electricity, Water, Municipal, Health, PWD, Education, Revenue or Transport departments online — no station visit needed.",
+    "cta": "File a Complaint", "ctaTrack": "Track Existing Complaint",
+    "howItWorks": "How it works",
+    "step1Title": "Register your complaint", "step1Desc": "Choose the department, describe the issue in Hindi or English, attach evidence.",
+    "step2Title": "Get a tracking ID + deadline", "step2Desc": "Every complaint gets an SLA deadline based on how serious it is.",
+    "step3Title": "Officer is held accountable", "step3Desc": "If the deadline is missed, the officer's rating — and salary/promotion eligibility — is automatically affected.",
+    "step4Title": "Track & rate resolution", "step4Desc": "Watch the status update live and rate the outcome once resolved.",
+    "departments": "Departments you can complain to", "publicStats": "Public service dashboard", "publicStatsSubtitle": "Transparent complaint activity across Uttar Pradesh", "complaintsResolved": "complaints resolved"
+  },
+  "auth": {
+    "loginTitle": "Login to Jan Suvidha", "registerTitle": "Create your citizen account",
+    "name": "Full name", "phone": "Phone number", "email": "Email (optional)", "password": "Password",
+    "preferredLanguage": "Preferred language", "loginBtn": "Login", "registerBtn": "Register",
+    "noAccount": "Don't have an account?", "haveAccount": "Already have an account?"
+  },
+  "complaint": {
+    "fileTitle": "File a new complaint", "department": "Department", "crimeType": "Issue / complaint type",
+    "title": "Short title", "description": "Describe the issue in detail", "descriptionHi": "विवरण हिंदी में (वैकल्पिक)",
+    "district": "District", "address": "Address / landmark", "anonymous": "File anonymously (for sensitive matters)",
+    "submit": "Submit Complaint", "trackingIdIssued": "Your complaint has been registered",
+    "trackTitle": "Track your complaint", "enterTrackingId": "Enter tracking ID (e.g. UP-2026-000123)",
+    "status": { "submitted": "Submitted", "underReview": "Under Review", "assigned": "Assigned", "investigation": "Investigation", "resolved": "Resolved", "closed": "Closed", "escalated": "Escalated (SLA missed)" },
+    "priority": { "low": "Low", "medium": "Medium", "high": "High", "critical": "Critical" },
+    "deadline": "Resolution deadline", "rateThis": "Rate this resolution", "submitRating": "Submit Rating",
+    "attachments": "Evidence photos", "resolutionAttachments": "Resolution photos", "attachmentsHint": "Up to 3 JPG, PNG, or WEBP images (5 MB each)",
+    "attachmentsMax": "Please select no more than 3 images.", "attachmentsInvalid": "Only JPG, PNG, or WEBP images up to 5 MB are allowed.",
+    "dailyLimit": "You have reached today's complaint filing limit. Please try again tomorrow.",
+    "duplicateTitle": "Similar complaints found", "duplicateMessage": "Please check these existing complaints before continuing. Your complaint was still submitted.",
+    "auditTrail": "Audit trail", "audit": { "status_change": "Status changed", "priority_change": "Priority changed", "assignment": "Officer assignment", "department_change": "Department changed" }
+  },
+  "officer": {
+    "dashboardTitle": "Officer Dashboard", "myRating": "My Rating", "assignedComplaints": "Assigned Complaints",
+    "salaryEligible": "Salary Increment Eligible", "promotionEligible": "Promotion Eligible", "underReview": "Under Performance Review",
+    "markResolved": "Mark Resolved", "addNote": "Add a note", "updateStatus": "Update Status"
+  },
+  "admin": {
+    "overview": "State Overview", "leaderboard": "Officer Accountability Leaderboard",
+    "totalComplaints": "Total Complaints", "resolved": "Resolved", "escalated": "Escalated / SLA Missed", "overdue": "Currently Overdue",
+    "byDepartment": "Complaints by Department", "byStatus": "Complaints by Status"
+  },
+  "common": { "loading": "Loading...", "error": "Something went wrong", "back": "Back", "viewDetails": "View Details" }
+}
