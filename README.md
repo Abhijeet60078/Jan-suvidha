@@ -31,9 +31,7 @@ npm run seed              # seeds 9 UP departments + one default admin account
 npm run dev                # starts API on http://localhost:5000
 ```
 
-Default admin login created by the seed script (change immediately):
-- Phone: `9999999999`
-- Password: `Admin@12345`
+
 
 To add officers or department heads, log in as admin and call:
 `POST /api/admin/staff` is not exposed — use `POST /api/auth/staff`
